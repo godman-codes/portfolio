@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+   padding-bottom: 100px;
+`;
 export const Content = styled.div`
    button {
       border: 2px solid #76f7cb;
