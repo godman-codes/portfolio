@@ -15,7 +15,7 @@ export const Content = styled.div`
       width: 60%;
    }
    #logo {
-      padding-left: 15px;
+      /* padding-left: 15px; */
    }
    p {
       font-size: var(--fontMed);

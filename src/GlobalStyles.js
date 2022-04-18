@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
    margin: 0;
-   padding: 0;
+   padding: 0 5%;
    background: hsla(159, 35%, 45%, 1);
    background: linear-gradient(180deg, hsla(159, 35%, 45%, 1) 0%, hsla(176, 68%, 12%, 1) 100%);
    background: -moz-linear-gradient(180deg, hsla(159, 35%, 45%, 1) 0%, hsla(176, 68%, 12%, 1) 100%);
