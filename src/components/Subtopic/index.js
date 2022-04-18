@@ -5,7 +5,7 @@ const Subtopic = ({ index, subTopic }) => {
    return (
       <Content>
          <h1>
-            <span>{index}.</span>
+            <span>{index}. </span>
             {subTopic}
          </h1>
       </Content>

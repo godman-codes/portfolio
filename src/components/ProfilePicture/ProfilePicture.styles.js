@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
    margin: 0px;
 `;
 export const Picture = styled.img`
-   background-color: aqua;
    width: 250px;
    height: 250px;
    border-radius: 50%;

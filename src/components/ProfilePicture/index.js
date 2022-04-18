@@ -1,10 +1,10 @@
 import React from "react";
 import { Wrapper, Picture } from "./ProfilePicture.styles";
 
-const ProfilePicture = ({ image }) => {
+const ProfilePicture = ({ image, text }) => {
    return (
       <Wrapper>
-         <Picture src={image} alt="Godman" />
+         <Picture src={image} alt={text} />
       </Wrapper>
    );
 };
