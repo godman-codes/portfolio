@@ -8,7 +8,19 @@ export const GlobalStyle = createGlobalStyle`
    --fontMed: 1.2rem;
    --fontSmall: 1rem;
 }
-
+::-webkit-scrollbar {
+   width: 15px;
+}
+::-webkit-scrollbar-track {
+   background: #4A9A7E;
+}
+::-webkit-scrollbar-thumb {
+   background: #1D3D32;
+   border-radius: 5px;
+   :hover {
+      background: #2F614F;
+   }
+}
 *{
    box-sizing: border-box;
    font-family: 'Nunito Sans', sans-serif;
@@ -44,7 +56,7 @@ body {
       font-size: 1rem;
       color: white;
    }
-   @media screen and (max-width: 900px) {
+   @media screen and (max-width: 968px) {
       padding: 0 5%;
       h1 {
       font-size: 1.7rem;
