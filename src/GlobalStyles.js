@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyles = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
 :root {
    --maxWidth: 1280px; 
    --fontSuperBig: 2.5rem;
@@ -11,25 +11,37 @@ export const GlobalStyles = createGlobalStyle`
 
 *{
    box-sizing: border-box;
-   font-family: 'Abel', sans-serif;
+   font-family: 'Nunito Sans', sans-serif;
+   margin: 0;
 }
 
 body {
    margin: 0;
    padding: 0;
+   background: hsla(159, 35%, 45%, 1);
+   background: linear-gradient(180deg, hsla(159, 35%, 45%, 1) 0%, hsla(176, 68%, 12%, 1) 100%);
+   background: -moz-linear-gradient(180deg, hsla(159, 35%, 45%, 1) 0%, hsla(176, 68%, 12%, 1) 100%);
+   background: -webkit-linear-gradient(180deg, hsla(159, 35%, 45%, 1) 0%, hsla(176, 68%, 12%, 1) 100%);
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A9B7F", endColorstr="#0A3431", GradientType=1 );
    
    h1 {
       font-size: 2rem;
-      font-weight: 600;
+      color: white;
    }
    
    h3 {
       font-size: 1.1rem;
       font-weight: 600;
+      color: white;
    }
+   @font-face {
+      font-family: 'Nunito Sans';
+      src: url(Nunito_sans/NunitoSans-Regular.ttf);
+}
 
    p{
       font-size: 1rem;
+      color: white;
    }
 }
 `;
