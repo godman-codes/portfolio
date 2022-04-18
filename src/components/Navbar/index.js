@@ -9,10 +9,11 @@ const Navbar = () => {
                <p>Godman</p>
             </div>
             <div className="action-nav">
-               <p>Home</p>
-               <p>About</p>
-               <p>Portfolio</p>
-               <p>Contact us</p>
+               <p className="hide">Home</p>
+               <p className="hide">About</p>
+               <p className="hide">Portfolio</p>
+               <p className="hide">Contact</p>
+               <p id="resume">Resume</p>
             </div>
          </Content>
       </Wrapper>

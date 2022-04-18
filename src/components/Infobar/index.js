@@ -1,13 +1,14 @@
 import React from "react";
 import { Wrapper, Content } from "./Infobar.styles";
+import Button from "../Button";
 
 const Infobar = () => {
    return (
       <Wrapper>
          <Content>
-            <p>Hello, my name is</p>
+            <p>Hello 👋, my name is</p>
             <h1>Oluwatobi Godman Faseun</h1>
-            <h1>I am a Full stack web developer</h1>
+            <h1 id="job">I am a Full stack web developer</h1>
             <br />
             <p>
                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
@@ -16,7 +17,7 @@ const Infobar = () => {
                aliquam adipisci quo atque!
             </p>
             <br />
-            <button>Get In Touch</button>
+            <Button text="Get In Touch" />
          </Content>
       </Wrapper>
    );

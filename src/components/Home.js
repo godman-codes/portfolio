@@ -6,6 +6,7 @@ import Infobar from "./Infobar";
 import Subtopic from "./Subtopic";
 import Infobar2 from "./infobar2";
 import MyWorks from "./MyWorks";
+import Contacts from "./Contacts";
 
 const movieDb = {
    header: "Movie House",
@@ -33,7 +34,7 @@ const Home = () => {
          <br />
          <br />
          <Subtopic index="03" subTopic="Contact Your Mans" />
-
+         <Contacts />
          <br />
          <br />
       </>

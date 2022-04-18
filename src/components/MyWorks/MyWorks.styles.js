@@ -10,6 +10,16 @@ export const Wrapper = styled.div`
    :hover {
       transform: scale(1.03);
    }
+   animation: data 2s;
+
+   @keyframes data {
+      from {
+         opacity: 0;
+      }
+      to {
+         opacity: 1;
+      }
+   }
 `;
 export const Content = styled.div`
    height: 100%;
@@ -28,5 +38,8 @@ export const Content = styled.div`
       font-size: larger;
       margin-right: 20px;
       height: 30px;
+      :hover {
+         transform: scale(1.4);
+      }
    }
 `;

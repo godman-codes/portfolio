@@ -2,7 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 :root {
-   --maxWidth: 1280px; 
    --fontSuperBig: 2.5rem;
    --fontBig: 1.5rem;
    --fontMed: 1.2rem;
@@ -30,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
 body {
    margin: 0;
    color: white;
-   padding: 0 15%;
+   padding: 0 10%;
    background: hsla(159, 35%, 45%, 1);
    background: linear-gradient(180deg, hsla(159, 35%, 45%, 1) 0%, hsla(176, 68%, 12%, 1) 100%);
    background: -moz-linear-gradient(180deg, hsla(159, 35%, 45%, 1) 0%, hsla(176, 68%, 12%, 1) 100%);
@@ -40,6 +39,9 @@ body {
    h1 {
       font-size: 2rem;
       color: white;
+   }
+   button {
+      cursor: pointer;
    }
    
    h3 {
@@ -61,7 +63,9 @@ body {
       h1 {
       font-size: 1.7rem;
    }
-   
+   @media screen and (max-width: 1350px) {
+      padding: 0 7%;
+   }
    h3 {
       font-size: 1.0rem;
       
