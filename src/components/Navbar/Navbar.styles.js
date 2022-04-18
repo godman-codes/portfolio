@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-   border: 2px red solid;
+   /* border: 2px red solid; */
    height: 50px;
 `;
 export const Content = styled.div`
