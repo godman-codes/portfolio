@@ -42,4 +42,7 @@ export const Content = styled.div`
          transform: scale(1.4);
       }
    }
+   span {
+      margin: 0 5px;
+   }
 `;

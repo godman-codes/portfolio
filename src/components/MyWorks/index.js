@@ -18,10 +18,18 @@ const MyWorks = ({ project }) => {
                ))}
             </div>
             <div id="logo-div ">
-               <a href={project.extLinks[0]}>
+               <a
+                  href={project.extLinks[0]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
                   <FontAwesomeIcon icon={faGithub} className="icon" />
                </a>
-               <a href={project.extLinks[1]}>
+               <a
+                  href={project.extLinks[1]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
                   <FontAwesomeIcon icon={faLink} className="icon" />
                </a>
             </div>

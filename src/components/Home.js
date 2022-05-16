@@ -12,10 +12,30 @@ const movieDb = {
    header: "Movie House",
    paragraph:
       "A website that allows users to search for movies and shows, and rate them as long as they have an account with The MovieDb api. The website was built using React, styledComponents and the Movie DB API.",
-   technologies: ["React", "Styled Components", "Movie DB API"],
+   technologies: ["React", "Javascript", "Styled Components", "Movie DB API"],
    extLinks: [
       "https://github.com/godman-codes/react-movie-house",
-      "https://clever-pike-7b3b67.netlify.app/location",
+      "https://clever-pike-7b3b67.netlify.app",
+   ],
+};
+const cashAttendanceApp = {
+   header: "Cashier App",
+   paragraph:
+      "A web application that allows cashier attendant in malls to query items from the stores database perform some calculations with quantity and price. This application was built using python flask on the backend and template were rendered using HTML and css ",
+   technologies: ["Python", "Flask", "HTML", "CSS"],
+   extLinks: [
+      "https://github.com/godman-codes/cashier",
+      "https://github.com/godman-codes/cashier",
+   ],
+};
+const schoolBusAPi = {
+   header: "School Bus API",
+   paragraph:
+      "An python flask backend API for a school bus application that has location tracking for the driver bus so that parent can track their wards bus in real time. it has separate modules for driver, parent and school admin with some request that can be made using a jwt token. This API was built using python flask server and some modules were imported from the flask library.",
+   technologies: ["Python", "Flask", "JWT", "SQl"],
+   extLinks: [
+      "https://github.com/godman-codes/school-bus-api",
+      "https://github.com/godman-codes/school-bus-api",
    ],
 };
 
@@ -31,6 +51,9 @@ const Home = () => {
          <Subtopic index="02" subTopic="My Work" />
          <MyWorks project={movieDb} />
          <br />
+         <MyWorks project={cashAttendanceApp} />
+         <br />
+         <MyWorks project={schoolBusAPi} />
          <br />
          <br />
          <Subtopic index="03" subTopic="Contact Your Mans" />
