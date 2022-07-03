@@ -34,13 +34,15 @@ const Infobar2 = () => {
                <li>HTML</li>
                <li>CSS</li>
                <li>Javascript</li>
-               <li>MySQL</li>
+               <li>SQL</li>
+               <li>Python</li>
             </ul>
             <ul id="second-list">
                <li>ReactJs</li>
                <li>Bootstrap</li>
                <li>Python Flask</li>
                <li>Google Maps</li>
+               <li>git</li>
             </ul>
          </div>
       </Wrapper>

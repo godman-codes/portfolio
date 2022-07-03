@@ -14,7 +14,7 @@ export const Contacts = () => {
       <Wrapper>
          <div>
             <p>
-               Have a little, something to talk about? well, why dont you send
+               Have a little, something to talk about? well, why don't you send
                me a mail now. i will get back to you as soon as i can. I will be
                glad to hear from you and be part of something great .
             </p>
