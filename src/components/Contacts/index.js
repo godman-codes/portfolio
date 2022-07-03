@@ -1,13 +1,13 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import { Wrapper } from "./Contacts.styles";
-import Button from "../Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
    faGithub,
    faLinkedin,
    faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import EmailForm from "../EmailForm";
 
 export const Contacts = () => {
    return (
@@ -19,7 +19,7 @@ export const Contacts = () => {
                glad to hear from you and be part of something great .
             </p>
             <br />
-            <Button text="Send a mail" />
+            <EmailForm />
          </div>
          <div id="icon-div">
             <a href="https://github.com/godman-codes">
