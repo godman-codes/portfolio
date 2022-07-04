@@ -8,7 +8,6 @@ const EmailForm = () => {
    const {
       register,
       reset,
-      handleSubmit,
       formState: { errors },
    } = useForm();
 
