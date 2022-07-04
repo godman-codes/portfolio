@@ -25,7 +25,7 @@ export const Contacts = () => {
             <a href="https://github.com/godman-codes">
                <FontAwesomeIcon icon={faGithub} className="icons" />
             </a>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/oluwatobiloba-faseun-2131701b5/">
                <FontAwesomeIcon icon={faLinkedin} className="icons" />
             </a>
             <a href="https://twitter.com/Godman_codes">
