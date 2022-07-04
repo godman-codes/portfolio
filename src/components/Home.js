@@ -31,7 +31,7 @@ const cashAttendanceApp = {
 const schoolBusAPi = {
    header: "School Bus API",
    paragraph:
-      "An python flask backend API for a school bus application that has location tracking for the driver bus so that parent can track their wards bus in real time. it has separate modules for driver, parent and school admin with some request that can be made using a jwt token. This API was built using python flask server and some modules were imported from the flask library.",
+      "An python flask backend API for a school bus application that has location tracking for the driver bus so that parent can track their ward's bus in real time. it has separate modules for driver, parent and school admin with some request that can be made using a jwt token. This API was built using python flask server and some modules were imported from the flask library.",
    technologies: ["Python", "Flask", "JWT", "SQl"],
    extLinks: [
       "https://github.com/godman-codes/school-bus-api",
