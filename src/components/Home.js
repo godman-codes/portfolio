@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Navbar from "./Navbar";
 import ProfilePicture from "./ProfilePicture";
 import Profile from "../images/profile2.jpg";
@@ -40,24 +40,57 @@ const schoolBusAPi = {
 };
 
 const Home = () => {
+   const about = useRef(null);
+   const portfolio = useRef(null);
+   const contact = useRef(null);
+
+   const handleClick1 = () => {
+      about.current.scrollIntoView({
+         behavior: "smooth",
+         block: "start",
+      });
+   };
+   const handleClick2 = () => {
+      portfolio.current.scrollIntoView({
+         behavior: "smooth",
+         block: "start",
+      });
+   };
+   const handleClick3 = () => {
+      contact.current.scrollIntoView({
+         behavior: "smooth",
+         block: "start",
+      });
+   };
+
    return (
       <>
-         <Navbar />
+         <Navbar
+            callback1={handleClick1}
+            callback2={handleClick2}
+            callback3={handleClick3}
+         />
          <ProfilePicture image={Profile} text="Godman profile picture" />
          <Infobar />
          <Subtopic index="01" subTopic="About Me" />
-         <Infobar2 />
+         <div ref={about}>
+            <Infobar2 />
+         </div>
          <br />
-         <Subtopic index="02" subTopic="My Work" />
-         <MyWorks project={movieDb} />
-         <br />
-         <MyWorks project={cashAttendanceApp} />
-         <br />
-         <MyWorks project={schoolBusAPi} />
-         <br />
+         <div ref={portfolio}>
+            <Subtopic index="02" subTopic="My Work" />
+            <MyWorks project={movieDb} />
+            <br />
+            <MyWorks project={cashAttendanceApp} />
+            <br />
+            <MyWorks project={schoolBusAPi} />
+            <br />
+         </div>
          <br />
          <Subtopic index="03" subTopic="Contact Your Mans" />
-         <Contacts />
+         <div ref={contact}>
+            <Contacts />
+         </div>
          <br />
          <br />
       </>

@@ -5,36 +5,27 @@ const Infobar2 = () => {
    return (
       <Wrapper>
          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque
-            placeat, facere iste impedit neque autem quis tempora minima
-            suscipit obcaecati mollitia veritatis fugit quasi atque eaque. Ea
-            suscipit nesciunt doloribus! Dolore qui itaque repudiandae sequi
-            cupiditate eaque, minus dolorem optio facilis quidem saepe. Ex
-            saepe, earum excepturi libero nesciunt deleniti.
+            Hey, there I’m Godman, a self-taught software developer based in
+            Lagos, Nigeria. I'm a self-taught developer with a passion for
+            building software that is user-friendly and easy to use.
          </p>
          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum quod
-            incidunt hic explicabo, cupiditate libero similique! Blanditiis iure
-            quibusdam vitae facere voluptate ut nemo laudantium illo, fugiat
-            incidunt ab nobis tenetur dolore neque dolorem voluptates aspernatur
-            impedit pariatur commodi adipisci deleniti ducimus amet!.
+            I specialize mostly in backend API development but I can still hold
+            my own on the client-side as well.
          </p>
          <p>
-            Neque officiis fugiat unde hic inventore. Aspernatur explicabo,
-            nulla inventore accusamus, mollitia provident nemo quas ipsum
-            aliquid eius doloribus est tenetur ducimus tempore sed distinctio,
-            cupiditate magni temporibus nobis delectus maiores ullam quia
-            aperiam maxime. Cum nobis quo quae eos dolore perspiciatis,
-            asperiores deserunt quam, ullam, explicabo maiores officiis.
-            Perspiciatis atque porro nisi error deserunt facere autem.
+            Whenever I’m not on my laptop coding, I love watching movies,
+            football matches (I'm a big football fan), I love music and
+            exercising.
          </p>
-         <p>Some techlologies i have worked with</p>
+         <p>Some technologies i have worked with</p>
          <div id="stack">
             <ul id="first-list">
                <li>HTML</li>
                <li>CSS</li>
                <li>Javascript</li>
                <li>SQL</li>
+               <li>sqlite</li>
                <li>Python</li>
             </ul>
             <ul id="second-list">
@@ -43,6 +34,7 @@ const Infobar2 = () => {
                <li>Python Flask</li>
                <li>Google Maps</li>
                <li>git</li>
+               <li>Sqlalchemy</li>
             </ul>
          </div>
       </Wrapper>

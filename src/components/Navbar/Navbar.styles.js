@@ -25,6 +25,10 @@ export const Content = styled.div`
    }
    #logo {
       padding: 7px;
+      p {
+         font-size: 1.5rem;
+         font-weight: bold;
+      }
    }
    p {
       cursor: pointer;

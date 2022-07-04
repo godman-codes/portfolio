@@ -8,13 +8,12 @@ const Infobar = () => {
          <Content>
             <p>Hello 👋, my name is</p>
             <h1>Oluwatobi Godman Faseun</h1>
-            <h1 id="job">I am a Full stack web developer</h1>
+            <h1 id="job">I am a software developer</h1>
             <br />
             <p>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
-               a, ullam odit laudantium laboriosam ab quam, dicta quod dolores
-               perspiciatis consequuntur consequatur ea voluptatem nemo aut
-               aliquam adipisci quo atque!
+               Coding and building software is a passion of mine. I have a
+               background in software development and I have a passion for
+               building software that is user-friendly and easy to use.
             </p>
             <br />
             <Button text="Get In Touch" />
