@@ -21,6 +21,7 @@ export const Wrapper = styled.div`
       ::placeholder {
          color: white;
          font-size: auto;
+         padding-left: 2px;
       }
    }
    textarea {
@@ -34,7 +35,8 @@ export const Wrapper = styled.div`
       padding-bottom: 15px;
       ::placeholder {
          color: white;
-         font-size: auto;
+         font-size: 100%;
+         padding-left: 2px;
       }
    }
    .button {
