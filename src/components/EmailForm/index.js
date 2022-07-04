@@ -8,6 +8,7 @@ const EmailForm = () => {
    const {
       register,
       reset,
+      handleSubmit,
       formState: { errors },
    } = useForm();
 
@@ -58,12 +59,14 @@ const EmailForm = () => {
          .then(
             (result) => {
                console.log(result.text);
+               alert("message sent");
                reset();
             },
             (error) => {
                console.log(error.text);
             }
          );
+      reset();
    };
    return (
       <Wrapper>
@@ -88,7 +91,7 @@ const EmailForm = () => {
             <label>Email</label>
             <br />
             <input
-               type="text"
+               type="email"
                placeholder="Email"
                name="email"
                {...register("email", {
