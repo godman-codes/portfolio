@@ -27,7 +27,7 @@ const MyWorks = ({ project }) => {
                </a>
                {project.header === "PLT SAP Platform" && (
                   <a
-                     href={project.extLinks[-1]}
+                     href={project.extLinks[1]}
                      target="_blank"
                      rel="noopener noreferrer"
                   >
@@ -35,7 +35,7 @@ const MyWorks = ({ project }) => {
                   </a>
                )}
                <a
-                  href={project.extLinks[-1]}
+                  href={project.extLinks[project.extLinks.length - 1]}
                   target="_blank"
                   rel="noopener noreferrer"
                >
