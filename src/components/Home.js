@@ -7,7 +7,17 @@ import Subtopic from "./Subtopic";
 import Infobar2 from "./infobar2";
 import MyWorks from "./MyWorks";
 import Contacts from "./Contacts";
-
+const PLTSAPP = {
+   header: "PLT SAP Platform",
+   paragraph:
+      "A web application that consists of a backend API and a frontend application. This platform is designed for managing license-based deals, offering features like license lifecycle management, dashboard analytics, and real-time notifications to clients about their deal lifecycle stages.",
+   technologies: ["React", "JavaScript", "ASP.NET", "PostgreSQL", "C#"],
+   extLinks: [
+      "https://github.com/Platview-Technologies/PLT-ANP-API",
+      "https://github.com/Platview-Technologies/plt-anp",
+      "https://plat-anp-n6jhf.ondigitalocean.app/",
+   ],
+};
 const movieDb = {
    header: "Movie House",
    paragraph:
@@ -79,6 +89,8 @@ const Home = () => {
          <br />
          <div ref={portfolio}>
             <Subtopic index="02" subTopic="My Work" />
+            <MyWorks project={PLTSAPP} />
+            <br />
             <MyWorks project={movieDb} />
             <br />
             <MyWorks project={cashAttendanceApp} />
