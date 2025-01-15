@@ -6,14 +6,14 @@ const Infobar = () => {
    return (
       <Wrapper>
          <Content>
-            <p>Hello 👋, my name is</p>
-            <h1>Oluwatobi Godman Faseun</h1>
-            <h1 id="job">I am a software developer</h1>
-            <br />
+            <h1>Hello 👋, I'm Oluwatobi Godman Faseun</h1>
+
+            <h2>Software Developer</h2>
+
             <p>
-               Coding and building software is a passion of mine. I have a
-               background in software development and I have a passion for
-               building software that is user-friendly and easy to use.
+               I specialize in creating user-friendly software solutions and
+               backend APIs that deliver real value. Let's build something
+               amazing together.
             </p>
             <br />
             <Button text="Get In Touch" />
@@ -21,4 +21,5 @@ const Infobar = () => {
       </Wrapper>
    );
 };
+
 export default Infobar;

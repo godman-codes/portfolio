@@ -25,8 +25,17 @@ const MyWorks = ({ project }) => {
                >
                   <FontAwesomeIcon icon={faGithub} className="icon" />
                </a>
+               {project.header === "PLT SAP Platform" && (
+                  <a
+                     href={project.extLinks[-1]}
+                     target="_blank"
+                     rel="noopener noreferrer"
+                  >
+                     <FontAwesomeIcon icon={faGithub} className="icon" />
+                  </a>
+               )}
                <a
-                  href={project.extLinks[1]}
+                  href={project.extLinks[-1]}
                   target="_blank"
                   rel="noopener noreferrer"
                >
