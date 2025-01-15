@@ -19,7 +19,14 @@ const Navbar = ({ callback1, callback2, callback3 }) => {
                <p className="hide" onClick={callback3}>
                   Contact
                </p>
-               <p id="resume">Resume</p>
+               <p id="resume">
+                  <a
+                     style={{ color: "white", textDecoration: "none" }}
+                     href="http://bit.ly/4ai1C0U"
+                  >
+                     Resume
+                  </a>
+               </p>
             </div>
          </Content>
       </Wrapper>
